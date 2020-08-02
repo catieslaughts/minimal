@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -17,6 +18,10 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        {% if site.contacts %}
+          <p>Some Font Awesome icons:</p>
+          <i class="fas fa-band-aid"></i>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
