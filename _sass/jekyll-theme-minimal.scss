@@ -2,7 +2,7 @@
 @import "rouge-github";
 
 body {
-  background-color: #bcdfe8;
+  background-color: #e3f9ff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -35,13 +35,13 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#263fb9;
+  color:#000e57;
   text-decoration:none;
   font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 a:hover, a:focus {
-  color:#111e5c;
+  color:#000830;
   font-weight: bold;
 }
 
