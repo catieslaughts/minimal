@@ -37,12 +37,13 @@ h3, h4, h5, h6 {
 a {
   color:#263fb9;
   text-decoration:none;
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
-a:hover, a:focus {
+a:hover {
   color:#111e5c;
   font-weight: bold;
+  font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 a small {
@@ -50,10 +51,12 @@ a small {
   color:#777;
   margin-top:-0.3em;
   display:block;
+  font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 a:hover small {
   color:#777;
+  font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 .wrapper {
