@@ -5,12 +5,12 @@ body {
   background-color: #1D2D50;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#1E5F74;
+  color:#ed0000;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#FCDAB7;
+  color:#ed7300;
   margin:0 0 20px;
 }
 
@@ -28,21 +28,21 @@ h1 {
 }
 
 h2 {
-  color:#FCDAB7;
+  color:#edc900;
 }
 
 h3, h4, h5, h6 {
-  color:#FCDAB7;
+  color:#47ed00;
 }
 
 a {
-  color:#FCDAB7;
+  color:#0027ed;
   text-decoration:none;
   font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 a:hover, a:focus {
-  color:#ffb66b;
+  color:#6700ed;
   font-weight: bold;
 }
 
