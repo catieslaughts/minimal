@@ -2,15 +2,15 @@
 @import "rouge-github";
 
 body {
-  background-color: #1D2D50;
+  background-color: #2c3531;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#ed0000;
+  color:#d1e8e2;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#ed7300;
+  color:#d9b08c;
   margin:0 0 20px;
 }
 
@@ -28,21 +28,21 @@ h1 {
 }
 
 h2 {
-  color:#edc900;
+  color:#ffcb9a;
 }
 
 h3, h4, h5, h6 {
-  color:#47ed00;
+  color:#ffcb9a;
 }
 
 a {
-  color:#0027ed;
+  color:#116466;
   text-decoration:none;
   font-family: "Noto Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 }
 
 a:hover, a:focus {
-  color:#6700ed;
+  color:#072b2b;
   font-weight: bold;
 }
 
