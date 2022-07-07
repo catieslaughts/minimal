@@ -35,7 +35,6 @@
         
         <br><a href="https://www.linkedin.com/in/catherineslaughter" target="_blank"> <i class="fab fa-linkedin" ></i> LinkedIn</a>
         
-        test
         
         <!-- <br><a href="https://twitter.com/catieslaughts" target="_blank"> <i class="fab fa-twitter" ></i> Twitter</a>
         
@@ -49,7 +48,12 @@
         {% endif %}
         
         {% if page.usemathjax %}
-          <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+          <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            TeX: { equationNumbers: { autoNumber: "AMS" } }
+            });
+          </script>
+          <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {% endif %}
 
         {% if site.show_downloads %}
