@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/cfa6dcd6c0.js"></script>
 
-{% if page.usemathjax %}
-<script type="text/javascript" async
- src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-{% endif %}
-    
-
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -52,6 +45,10 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" style="padding-top:20px"/>
           <br>
+        {% endif %}
+        
+        {% if page.usemathjax %}
+          <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
         {% endif %}
 
         {% if site.show_downloads %}
