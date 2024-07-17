@@ -2,21 +2,21 @@
 @import "rouge-github";
 
 body {
-  background-color: #f7f7f7 !important;
-  padding:50px !important;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  color:#727272 !important;
-  font-weight:400 !important;
+  background-color: #f7f7f7;
+  padding:50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222 !important;
-  margin:0 0 20px !important;
+  color:#222;
+  margin:0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px !important;
-  list-style-type: circle !important; 
+  margin:0 0 20px;
+  list-style-type: circle; 
 }
 
 ul :last-child, ol :last-child {
@@ -47,7 +47,6 @@ a {
 
 a:hover, a:focus {
   color:#000830;
-  font-weight: Normal;
 }
 
 a small {
